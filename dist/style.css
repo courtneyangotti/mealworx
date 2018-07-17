@@ -1,0 +1,130 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
+
+li {
+  float: left; }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none; }
+
+li a:hover:not(.active) {
+  background-color: #111; }
+
+a:hover {
+  text-decoration: underline;
+  color: #eab761;
+  background-color: #111; }
+
+.active {
+  background-color: #af1600; }
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px; }
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  color: #af1600;
+  font-family: galada; }
+
+header {
+  background-color: #efefef; }
+
+body {
+  background-color: #f3f3f3; }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: 10px;
+  padding-top: auto;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+h2 {
+  color: #eab761; }
+
+footer {
+  background-color: black;
+  padding: 0px; }
+
+.footer {
+  display: flex;
+  padding-top: 30px;
+  margin-top: 10px; }
+
+a:hover {
+  text-decoration: underline;
+  color: #eab761;
+  background-color: #111; }
+
+div.gallery {
+  border: 1px solid #ccc; }
+
+div.gallery:hover {
+  border: 1px solid #777; }
+
+div.gallery img {
+  width: 100%;
+  height: auto; }
+
+div.desc {
+  padding: 15px;
+  text-align: center; }
+
+* {
+  box-sizing: border-box; }
+
+.responsive {
+  padding: 0 6px;
+  width: 50%; }
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0; } }
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%; } }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end; }
+
+.desc {
+  color: white;
+  font-family: Roboto; }
+
+.order {
+  display: inline-flex;
+  justify-content: right; }
+
+a:hover {
+  background-color: black; }
+
+.button:hover {
+  background-color: white; }
+
+.button:active {
+  background-color: white;
+  transform: translateY(4px); }
+

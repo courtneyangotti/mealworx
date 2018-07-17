@@ -1,2 +1,1 @@
-# Mealworx Project
-details coming soon.
+# Webpack-Starter
